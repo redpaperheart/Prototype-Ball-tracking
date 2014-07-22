@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
+		00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		1AE71A4E6D464B2DAFC781C7 /* ArduinoSpaceBrewApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22BE3274321540EDB7219CD5 /* ArduinoSpaceBrewApp.cpp */; };
+		367B2D7321F9473F884C629C /* WebSocketConnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C860108C3548E980364AD1 /* WebSocketConnection.cpp */; };
+		425C5C9F81B04E14AD868CBF /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = A2FCC876174848C095DE1BA9 /* CinderApp.icns */; };
+		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
+		88D36027F23445038B500864 /* WebSocketClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC11FCEF4F0C4A0EA59E0D47 /* WebSocketClient.cpp */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		9DFB63DBD7EF4760A03860F2 /* ciSpaceBrew.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C26B3F515046456CB093A208 /* ciSpaceBrew.cpp */; };
+		CCAFF971011447969E221C04 /* sha1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B9514718C96447180CB9492 /* sha1.cpp */; };
+		FCFFBFAE531F413F817CFEBC /* WebSocketServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C544270FF38D4B39ACF38B57 /* WebSocketServer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13C9C7F9FA0F4935BE819922 /* WebSocketConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WebSocketConnection.h; path = "../blocks/Cinder-WebSocketPP/src/WebSocketConnection.h"; sourceTree = "<group>"; };
+		15C860108C3548E980364AD1 /* WebSocketConnection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = WebSocketConnection.cpp; path = "../blocks/Cinder-WebSocketPP/src/WebSocketConnection.cpp"; sourceTree = "<group>"; };
+		19EBD360B193463BAE9FC1F6 /* ArduinoSpaceBrew_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = ArduinoSpaceBrew_Prefix.pch; sourceTree = "<group>"; };
+		1F60FC22D0344F9E9273C6CC /* md5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = md5.h; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/md5/md5.h"; sourceTree = "<group>"; };
+		22BE3274321540EDB7219CD5 /* ArduinoSpaceBrewApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = ArduinoSpaceBrewApp.cpp; path = ../src/ArduinoSpaceBrewApp.cpp; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		29EDFF8921674C6C96EB0577 /* client.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = client.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/client.hpp"; sourceTree = "<group>"; };
+		333361ACC0B24CF0BD649F5B /* connection.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = connection.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/connection.hpp"; sourceTree = "<group>"; };
+		421B12EB02704C2DA8658793 /* endpoint_base.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = endpoint_base.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/endpoint_base.hpp"; sourceTree = "<group>"; };
+		456E716930AF410A916A81A4 /* sha1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/sha1/sha1.h"; sourceTree = "<group>"; };
+		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		574859942C8C4FC59BFB9F6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9C4DF6D18449C9B1783FCE /* uri.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = uri.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/uri.hpp"; sourceTree = "<group>"; };
+		5EC4A19456404BBC96A597A2 /* WebSocketServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WebSocketServer.h; path = "../blocks/Cinder-WebSocketPP/src/WebSocketServer.h"; sourceTree = "<group>"; };
+		630D68A994404808BA1788FA /* utf8_validator.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = utf8_validator.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/utf8_validator.hpp"; sourceTree = "<group>"; };
+		691D056F83D542BCA4C6977E /* error_container.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = error_container.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/error_container.hpp"; sourceTree = "<group>"; };
+		6B9514718C96447180CB9492 /* sha1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = sha1.cpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/sha1/sha1.cpp"; sourceTree = "<group>"; };
+		6D19ECCF755F4C4A9767F900 /* error.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = error.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/error.hpp"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* ArduinoSpaceBrew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArduinoSpaceBrew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9498B7B86747CB8E8DF4CE /* common.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = common.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/common.hpp"; sourceTree = "<group>"; };
+		A2FCC876174848C095DE1BA9 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
+		AC11FCEF4F0C4A0EA59E0D47 /* WebSocketClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = WebSocketClient.cpp; path = "../blocks/Cinder-WebSocketPP/src/WebSocketClient.cpp"; sourceTree = "<group>"; };
+		AE69BE46D51B4AFFB16E75C6 /* connection_base.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = connection_base.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/connection_base.hpp"; sourceTree = "<group>"; };
+		B5811CFC9F0D4653903D26B2 /* base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = base64.h; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/base64/base64.h"; sourceTree = "<group>"; };
+		BA10BFAE64784C0F9414029F /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+		BE3755B159AC4DE9889C2CEE /* frame.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = frame.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/frame.hpp"; sourceTree = "<group>"; };
+		C26B3F515046456CB093A208 /* ciSpaceBrew.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = ciSpaceBrew.cpp; path = ../blocks/Spacebrew/src/ciSpaceBrew.cpp; sourceTree = "<group>"; };
+		C438D0EDE13545B98386F15A /* utilities.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = utilities.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/utilities.hpp"; sourceTree = "<group>"; };
+		C544270FF38D4B39ACF38B57 /* WebSocketServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = WebSocketServer.cpp; path = "../blocks/Cinder-WebSocketPP/src/WebSocketServer.cpp"; sourceTree = "<group>"; };
+		D00E64F202C94736AA526A43 /* WebSocketClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WebSocketClient.h; path = "../blocks/Cinder-WebSocketPP/src/WebSocketClient.h"; sourceTree = "<group>"; };
+		D2A48D340C02483C8A302835 /* server.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = server.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/server.hpp"; sourceTree = "<group>"; };
+		DF3626CB03674B3DBC5D8FF9 /* endpoint.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = endpoint.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/endpoint.hpp"; sourceTree = "<group>"; };
+		DFC0C54182484C2B829818CB /* close.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = close.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/close.hpp"; sourceTree = "<group>"; };
+		F02AF79AC005465B9C1A55B6 /* ciSpaceBrew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ciSpaceBrew.h; path = ../blocks/Spacebrew/src/ciSpaceBrew.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
+				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
+				5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */,
+				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
+				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
+				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
+				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				7AA4C881F32241C4BFF3DDCE /* Cinder-WebSocketPP */,
+				613D06826600453EB469E638 /* Spacebrew */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				22BE3274321540EDB7219CD5 /* ArduinoSpaceBrewApp.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B784AF0FF439BC000DE1D7 /* Accelerate.framework */,
+				00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */,
+				00B784B10FF439BC000DE1D7 /* AudioUnit.framework */,
+				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
+				5323E6B50EAFCA7E003A9687 /* QTKit.framework */,
+				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+				0091D8F80E81B9330029341E /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		11F0CB6D016E4F9EBC0A5AE1 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AC11FCEF4F0C4A0EA59E0D47 /* WebSocketClient.cpp */,
+				15C860108C3548E980364AD1 /* WebSocketConnection.cpp */,
+				C544270FF38D4B39ACF38B57 /* WebSocketServer.cpp */,
+				3480D8543509402890D37EBC /* websocketpp */,
+				D00E64F202C94736AA526A43 /* WebSocketClient.h */,
+				13C9C7F9FA0F4935BE819922 /* WebSocketConnection.h */,
+				5EC4A19456404BBC96A597A2 /* WebSocketServer.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* ArduinoSpaceBrew.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EB2D1E9F0764772A757A6B2 /* sha1 */ = {
+			isa = PBXGroup;
+			children = (
+				6B9514718C96447180CB9492 /* sha1.cpp */,
+				456E716930AF410A916A81A4 /* sha1.h */,
+			);
+			name = sha1;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ArduinoSpaceBrew */ = {
+			isa = PBXGroup;
+			children = (
+				01B97315FEAEA392516A2CEA /* Blocks */,
+				29B97315FDCFA39411CA2CEA /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = ArduinoSpaceBrew;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				BA10BFAE64784C0F9414029F /* Resources.h */,
+				19EBD360B193463BAE9FC1F6 /* ArduinoSpaceBrew_Prefix.pch */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2FCC876174848C095DE1BA9 /* CinderApp.icns */,
+				574859942C8C4FC59BFB9F6B /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3480D8543509402890D37EBC /* websocketpp */ = {
+			isa = PBXGroup;
+			children = (
+				1EB2D1E9F0764772A757A6B2 /* sha1 */,
+				29EDFF8921674C6C96EB0577 /* client.hpp */,
+				DFC0C54182484C2B829818CB /* close.hpp */,
+				9D9498B7B86747CB8E8DF4CE /* common.hpp */,
+				333361ACC0B24CF0BD649F5B /* connection.hpp */,
+				AE69BE46D51B4AFFB16E75C6 /* connection_base.hpp */,
+				DF3626CB03674B3DBC5D8FF9 /* endpoint.hpp */,
+				421B12EB02704C2DA8658793 /* endpoint_base.hpp */,
+				6D19ECCF755F4C4A9767F900 /* error.hpp */,
+				691D056F83D542BCA4C6977E /* error_container.hpp */,
+				BE3755B159AC4DE9889C2CEE /* frame.hpp */,
+				D2A48D340C02483C8A302835 /* server.hpp */,
+				5A9C4DF6D18449C9B1783FCE /* uri.hpp */,
+				630D68A994404808BA1788FA /* utf8_validator.hpp */,
+				C438D0EDE13545B98386F15A /* utilities.hpp */,
+				83323608B1D24E6B94F115BA /* base64 */,
+				4439607A98034A038E173F8F /* md5 */,
+			);
+			name = websocketpp;
+			sourceTree = "<group>";
+		};
+		4439607A98034A038E173F8F /* md5 */ = {
+			isa = PBXGroup;
+			children = (
+				1F60FC22D0344F9E9273C6CC /* md5.h */,
+			);
+			name = md5;
+			sourceTree = "<group>";
+		};
+		613D06826600453EB469E638 /* Spacebrew */ = {
+			isa = PBXGroup;
+			children = (
+				CD0FCB0520A445E795F4D47F /* src */,
+			);
+			name = Spacebrew;
+			sourceTree = "<group>";
+		};
+		7AA4C881F32241C4BFF3DDCE /* Cinder-WebSocketPP */ = {
+			isa = PBXGroup;
+			children = (
+				11F0CB6D016E4F9EBC0A5AE1 /* src */,
+			);
+			name = "Cinder-WebSocketPP";
+			sourceTree = "<group>";
+		};
+		83323608B1D24E6B94F115BA /* base64 */ = {
+			isa = PBXGroup;
+			children = (
+				B5811CFC9F0D4653903D26B2 /* base64.h */,
+			);
+			name = base64;
+			sourceTree = "<group>";
+		};
+		CD0FCB0520A445E795F4D47F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C26B3F515046456CB093A208 /* ciSpaceBrew.cpp */,
+				F02AF79AC005465B9C1A55B6 /* ciSpaceBrew.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* ArduinoSpaceBrew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ArduinoSpaceBrew" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArduinoSpaceBrew;
+			productInstallPath = "$(HOME)/Applications";
+			productName = ArduinoSpaceBrew;
+			productReference = 8D1107320486CEB800E47090 /* ArduinoSpaceBrew.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ArduinoSpaceBrew" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ArduinoSpaceBrew */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* ArduinoSpaceBrew */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425C5C9F81B04E14AD868CBF /* CinderApp.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE71A4E6D464B2DAFC781C7 /* ArduinoSpaceBrewApp.cpp in Sources */,
+				88D36027F23445038B500864 /* WebSocketClient.cpp in Sources */,
+				367B2D7321F9473F884C629C /* WebSocketConnection.cpp in Sources */,
+				FCFFBFAE531F413F817CFEBC /* WebSocketServer.cpp in Sources */,
+				CCAFF971011447969E221C04 /* sha1.cpp in Sources */,
+				9DFB63DBD7EF4760A03860F2 /* ciSpaceBrew.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CINDER_PATH = "$(CINDER_PATH_$USER)";
+				CINDER_PATH_redpaperheart = /Users/redpaperheart/Work/Code/cpp/cinder_0.8.6dev;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ArduinoSpaceBrew_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"\"../blocks/Cinder-WebSocketPP/lib/macosx\"",
+					"\"$(CINDER_PATH)/include\"",
+					../include,
+				);
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder_d.a\"",
+					"\"../blocks/Cinder-WebSocketPP/lib/macosx/libboost_random.a\"",
+					"\"../blocks/Cinder-WebSocketPP/lib/macosx/libboost_regex.a\"",
+				);
+				PRODUCT_NAME = ArduinoSpaceBrew;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CINDER_PATH = "$(CINDER_PATH_$USER)";
+				CINDER_PATH_redpaperheart = /Users/redpaperheart/Work/Code/cpp/cinder_0.8.6dev;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ArduinoSpaceBrew_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"\"../blocks/Cinder-WebSocketPP/lib/macosx\"",
+					"\"$(CINDER_PATH)/include\"",
+					../include,
+				);
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder.a\"",
+					"\"../blocks/Cinder-WebSocketPP/lib/macosx/libboost_random.a\"",
+					"\"../blocks/Cinder-WebSocketPP/lib/macosx/libboost_regex.a\"",
+				);
+				PRODUCT_NAME = ArduinoSpaceBrew;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = i386;
+				CINDER_PATH = "$(CINDER_PATH_$USER)";
+				CINDER_PATH_redpaperheart = /Users/redpaperheart/Work/Code/cpp/cinder_0.8.6dev;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(CINDER_PATH)/boost\"",
+					"\"$(CINDER_PATH)/include\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "$(CINDER_PATH)/include ../include \"../blocks/Cinder-WebSocketPP/src\" ../blocks/Spacebrew/src";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = i386;
+				CINDER_PATH = "$(CINDER_PATH_$USER)";
+				CINDER_PATH_redpaperheart = /Users/redpaperheart/Work/Code/cpp/cinder_0.8.6dev;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(CINDER_PATH)/boost\"",
+					"\"$(CINDER_PATH)/include\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "$(CINDER_PATH)/include ../include \"../blocks/Cinder-WebSocketPP/src\" ../blocks/Spacebrew/src";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ArduinoSpaceBrew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ArduinoSpaceBrew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
