@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FC95B2EE-1B07-4F11-A76D-4BE43B0F8DAA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ArduinoSpaceBrew</string>
+	<key>IDESourceControlProjectPath</key>
+	<string>xcode/ArduinoSpaceBrew.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3FA0C22B-00C0-43E3-A400-51912042CF7E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dmelancon/Prototypes.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3FA0C22B-00C0-43E3-A400-51912042CF7E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3FA0C22B-00C0-43E3-A400-51912042CF7E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ArduinoSpaceBrew</string>
+		</dict>
+	</array>
+</dict>
+</plist>
